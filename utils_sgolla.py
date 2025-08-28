@@ -166,7 +166,7 @@ def main() -> None:
     loguru.logger.info("Byline:\n" + get_byline())
 
     try:
-        read_byline_aloud()
+        # read_byline_aloud()
         pass
     except KeyboardInterrupt:
         logger.info("Speech interrupted by user (Ctrl+C).")
